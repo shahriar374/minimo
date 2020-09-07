@@ -1,0 +1,293 @@
+/* CSS INDEX
+
+0. Declaration
+
+1. Header 
+  1.1 Logo 
+  1.2 Menubar 
+  
+2. First Post
+  2.1 Banner image
+  2.2 Post details
+
+3. First Row
+  3.1 Left Post
+  3.2 Right Post  
+
+4. Second Row
+
+5. Newsletter
+
+6. Load more button
+
+7. Footer
+ 7.1 Left section
+ 7.2 Right section
+
+
+ */
+
+
+
+
+
+
+/*                          0. Declaration                     */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+h2, p, li {
+  font-family: 'Playfair Display', serif;
+  color: #626262;
+}
+
+.comment{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  color: #B4AD9E;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+ /*                          1. Header                            */
+
+.header{
+  width: 100%;
+  padding: 70px 0;
+}
+
+
+/* 1.1 Logo */
+
+.header .logo{
+  width: 30%;
+  float: left;
+}
+
+/* 1.2 Menubar */
+
+.menu-items ul {
+  text-align: right;
+  width: 60%;
+  float: right;
+}
+
+.menu-items ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 95px;
+}
+
+
+/*                          2. First Post                     */
+
+/* 2.1 Banner Image */
+
+.firstpost img{
+  width: 100%;
+}
+
+/* 2.2 Post details */
+
+.postdetails{
+  padding: 80px;
+}
+
+.firstpost .postdetails h2{
+  padding-top: 28px;
+  padding-bottom: 34px;
+}
+
+.firstpost .postdetails .leave{
+  padding-top: 52px;
+}
+
+/*                         3. First Row                      */
+
+.firstrow .postgroup{
+  padding: 80px;
+}
+
+.firstrow h2{
+  padding-bottom: 34px;
+}
+
+/* 3.1 Left Post */
+
+.leftpost{
+  float: left;
+  width: 45%;
+  padding: 0 17px 0 0;
+}
+
+.leftpost img{
+  width: 100%;
+}
+
+.leftpost .comment{
+  margin: 31px 0 28px 0;
+}
+
+
+
+/* 3.2 Right Post */
+
+.rightpost{
+  float: right;
+  width: 45%;
+  padding: 0 17px 0 0;
+}
+
+.rightpost img{
+  width: 100%;
+}
+
+.rightpost .comment{
+  margin: 31px 0 28px 0;
+}
+
+
+/*                         4. Second Row                      */
+
+
+.secondrow .postgroup{
+  padding: 80px;
+}
+
+.secondrow h2{
+  padding-bottom: 34px;
+}
+
+.secondrow .leftpost, .secondrow .rightpost{
+  margin-top: 87px;
+  padding-bottom: 121px;
+}
+
+
+
+/*                        5. Newsletter                             */
+
+.newsletter{
+  display: flow-root;
+  height: 300px;
+  width: 100%;
+  background-color: #F0F0F0;
+}
+
+
+.newsletter h2{
+  color: #333333;
+  font-size: 30px;
+  padding-bottom: 80px;
+}
+
+.newsletter .container{
+  text-align: center;
+  padding-top: 74px;
+}
+
+.newsletter .mailbox input{
+  width: 32%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 13px 5px;
+  color: #626262;
+  font-size: 20px;
+}
+
+.mailbox{
+  position: relative;
+}
+
+
+.newsletter .mailbox i{
+  position: absolute;
+  right: 35%;
+  top: 15px;
+  color: #626262;
+}
+
+.newsletter .mailbox input:focus{
+  outline: none;
+}
+
+.newsletter .mailbox input::placeholder{
+  font-family: 'Playfair Display', serif;
+  color: #626262;
+}
+
+
+/*                          6. Load more button                     */
+
+.container button{
+  background-color: #FFFFFF;
+  padding: 22px 35px;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  color: #626262;
+}
+
+.btnsection{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
+.footer{
+  width: 100%;
+  background-color: #F0F0F0;
+}
+
+
+/*                        7. Footer                             */
+
+
+/* 7.1 Left section */
+
+
+.footer a{
+  text-decoration: none;
+}
+
+.footer ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 41px 17px 45px 0;
+  color: #000000;
+  font-size: 14px;
+}
+
+/* 7.2 Right section */
+
+.footer ul{
+  display: inline;
+}
+
+.footer .social{
+  float: right;
+  padding: 41px 0 45px 0;
+  font-size: 14px;
+}
+
+.social i{
+  padding: 0 17px;
+  color: #626262;
+}
+
+.social span{
+  font-family: 'Playfair Display', serif;
+}
